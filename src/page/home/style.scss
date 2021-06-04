@@ -1,5 +1,5 @@
 .tagsContainer {
-  padding: 3rem;
+  padding: 1rem;
   margin-bottom: 2rem;
   &__tag {
     cursor: pointer;
@@ -18,12 +18,12 @@
       width: 16vw;
     }
   }
+  margin-bottom:5rem;
 }
 .paginationContainer {
   text-align: center;
-  bottom: 0.2rem;
+  bottom: 0.5rem;
   padding-top: 2rem;
   position: absolute;
-
-  margin: 0;
+  right:.3rem;
 }
