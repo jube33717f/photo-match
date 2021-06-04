@@ -50,6 +50,7 @@ const HomePage = ()=>{
         <Divider orientation="left">Tags</Divider>
             {photos_tag.map(e=><Tag color="#2db7f5"
                                 className='tagsContainer_tag'
+                                style={{cursor:'pointer'}}
                                 onClick={()=>{
                                     dispatch(searchRequest(e,1))
                                 }}
