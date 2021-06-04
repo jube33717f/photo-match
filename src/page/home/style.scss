@@ -1,0 +1,29 @@
+.tagsContainer {
+  padding: 3rem;
+  margin-bottom: 2rem;
+  &__tag {
+    cursor: pointer;
+  }
+}
+.imgContainer {
+  display: flex;
+  width: 80vw;
+  flex-wrap: wrap;
+  background: #ffffff;
+  //   position: absolute;
+  &__box {
+    img {
+      border: 0.5rem solid #ffffff;
+      outline: 0.01rem solid #edeff2;
+      width: 16vw;
+    }
+  }
+}
+.paginationContainer {
+  text-align: center;
+  bottom: 0.2rem;
+  padding-top: 2rem;
+  position: absolute;
+
+  margin: 0;
+}

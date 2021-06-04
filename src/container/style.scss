@@ -1,0 +1,64 @@
+.Container {
+  width: 100vw;
+  overflow: none;
+  min-height: 100vh !important;
+  &__header {
+    color: #fff;
+    width: 100%;
+    display: flex;
+    position: relative;
+    h3 {
+      color: #fff;
+      padding-right: 1em;
+    }
+    &-search {
+      height: 40px;
+      position: absolute;
+      right: 3rem;
+      display: flex;
+      margin-top: 12px;
+      input {
+        height: 40px;
+        width: 180px;
+        line-height: 40px;
+        border-radius: 5px;
+        border: #1e9aa9 1px solid;
+        &:focus {
+          outline: none;
+        }
+      }
+      button {
+        margin-left: 20px;
+        height: 40px;
+        padding: 0 14px 0 14px;
+        background-color: #001529;
+        color: #1e9aa9;
+        border-radius: 5px;
+        line-height: 40px;
+        border: #1e9aa9 solid 1px;
+        cursor:pointer;
+      }
+    }
+  }
+  &__content {
+    margin-top: 0.1rem;
+    width: 80vw;
+    margin-left: 10vw;
+    position: relative;
+    background:#ffffff;
+  }
+  &__footer {
+    text-align: center;
+  }
+}
+
+.logo {
+  float: left;
+}
+.ant-menu-submenu-popup {
+  background-color: #001529 !important;
+}
+
+.ant-menu-item-selected {
+  background-color: #001529 !important;
+}
